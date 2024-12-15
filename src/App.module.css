@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.left {
+    width: 12.5rem;
+    min-height: 100vh;
+    padding-top: 1.25rem;
+}
+
+.right {
+    flex-grow: 1;
+    min-height: 100vh;
+    padding: 1.625rem 1rem 0;
+    background: #f0f0f0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    transform: translateX(50%);
+}
+
+.inspectionUpperGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container :global(.jsx-1730587817) {
+    font-weight: normal !important;
+}
+
+@media (max-width: 71.875rem) {
+    .left {
+        width: 9rem;
+    }
+    .right {
+        padding-left: 1rem;
+    }
+}

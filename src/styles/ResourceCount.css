@@ -1,0 +1,123 @@
+
+.resourceHeader,
+.resourceRow {
+    display: grid;
+    grid-template-columns: minmax(15.625rem, 5fr) minmax(12.5rem, 4fr) minmax(7.5rem, 1fr) minmax(7.5rem, 1fr);
+    gap: 3rem;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.fieldLabel {
+    font-weight: 500;
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.lastYearValue,
+.currentValue,
+.discrepancy {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.currentValue input.jsx-3353877153 {
+    width: 12.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lastYearValue input.jsx-3353877153,
+.discrepancy input.jsx-3353877153 {
+    width: 7.5rem;
+    margin-left: 0;
+}
+
+.rc-resourceUtilityBar {
+    justify-content: space-between !important;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    position: relative;
+    z-index: 1;
+}
+
+.rc-resourceUtilityBar .utilityItem {
+    flex: 0 1 auto !important;
+}
+
+.rc-resourceUtilityBar .utilityItem:last-child {
+    margin-left: auto;
+}
+
+.discrepancy input[type="number"]::-webkit-inner-spin-button,
+.discrepancy input[type="number"]::-webkit-outer-spin-button,
+.lastYearValue input[type="number"]::-webkit-inner-spin-button,
+.lastYearValue input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.discrepancy input[type="number"],
+.lastYearValue input[type="number"] {
+    -moz-appearance: textfield;   
+    appearance: textfield;         
+}
+
+.rc-inputContainer {
+    margin: 1rem 0;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.resourceHeader {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.resourceRow{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.currentValue input {
+    width: 12.5rem;
+}
+
+.lastYearValue input,
+.discrepancy input {
+    width: 7.5rem;
+}
+
+.rc-reportContainer {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+}
+
+@media (max-width: 71.875rem) { 
+    .resourceHeader,
+    .resourceRow {
+        grid-template-columns: minmax(10rem, 5fr) minmax(8rem, 4fr) minmax(5rem, 1fr) minmax(5rem, 1fr);
+        gap: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .currentValue input {
+        max-width: 8rem;
+    }
+
+    .lastYearValue input,
+    .discrepancy input {
+        max-width: 5rem;
+    }
+
+
+    .rc-resourceUtilityBar .utilityItem {
+        margin-left: 0;
+    }
+}

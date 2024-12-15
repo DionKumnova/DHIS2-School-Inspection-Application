@@ -1,0 +1,14 @@
+/* Navigation.module.css */
+
+.navigationContainer {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 12.5rem;
+}
+
+@media (max-width: 71.875rem) {
+    .navigationContainer {
+        width: 9rem;
+    }
+}

@@ -1,0 +1,2 @@
+export const SCHOOL_INSPECTION_PROGRAM_ID = 'UxK2o06ScIe'
+export const RESOURCE_COUNT_PROGRAM_ID = 'gLQ233Sp6ul'

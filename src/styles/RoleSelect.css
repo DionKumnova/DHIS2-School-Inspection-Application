@@ -1,0 +1,84 @@
+.roleContainer {
+    width:40rem;
+    margin-left: 1rem;
+}
+
+.labels {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.label-select-district {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.select {
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Ensure buttons take full width and have proper padding */
+.custom-button {
+    width: 100% !important;
+    padding: 1rem !important;
+    height: auto !important;
+}
+
+/* Style for the selected button using a teal color */
+.selected-button {
+    background-color: #e0f2f1 !important; /* teal200 */
+    color: #004d40 !important; /* Adjusted for better contrast */
+    border-color: #4db6ac !important;
+}
+
+/* Hover effect for unselected buttons, changing background to grey */
+.custom-button:not(.selected-button):hover {
+    background-color: #d3d3d3 !important; /* Light grey */
+}
+
+/* Button content styling */
+.button-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button-text {
+    text-align: left;
+}
+
+.button-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.button-helptext {
+    font-size: 0.9rem;
+}
+
+.button-icon {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+@media (max-width: 55rem) { 
+    .roleContainer {
+        width:34.2rem;
+        margin-left: 2rem;
+    }
+}

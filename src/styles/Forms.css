@@ -1,0 +1,181 @@
+.formContainer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 60rem; 
+    border: 1px solid #cccccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.utilitySelect {
+    width: 20rem !important; 
+    min-width: 10rem !important;
+}
+
+.utilityBar {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 60rem;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.utilityItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 0.5rem;
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+    border-right: 1px solid #e0e0e0;
+    flex: 1;
+}
+
+.utilityItem:last-child {
+    border-right: none;
+    
+}
+
+.utilityItem:first-child {
+    padding-left: 0.5rem;
+
+}
+
+.utilityLabel {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666666;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.formTitle {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #212121;
+    letter-spacing: -0.5px;
+}
+
+.formSubtitle {
+    color: #666666;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.dateSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+
+.dateLabel {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.dateValue {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+}
+
+.reportContainer {
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 1rem;
+}
+
+.inspectionUpperGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jsx-2904627559 {
+    font-size: 1rem;
+}
+
+@media (max-width: 71.875rem) { 
+
+    .formHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .formTitle {
+        font-size: 1.5rem;
+    }
+
+    .utilityBar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .utilityItem {
+        padding-right: 0;
+        border-right: none;
+        width: 100%;
+    }
+
+    .utilityLabel {
+        font-size: 0.7rem;
+    }
+
+    .inputContainer {
+        padding: 0.5rem;
+        gap: 1.5rem;
+    }
+
+    .reportContainer {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .titleSection,
+    .dateSection {
+        align-items: flex-start;
+    }
+
+    .formSubtitle {
+        font-size: 0.8rem;
+    }
+
+    .dateValue {
+        font-size: 1rem;
+    }
+}
