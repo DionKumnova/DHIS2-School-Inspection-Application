@@ -1,7 +1,7 @@
 # School Inspection & Resource Management System
 
 
-A DHIS2 application for managing school inspections and resource counting, built with React on the DHIS2 Application Platform.
+A React application for managing school inspections and resource counting built on the DHIS2 platform.
 
 ## Features
 
